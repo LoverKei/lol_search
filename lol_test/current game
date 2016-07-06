@@ -1,0 +1,43 @@
+current game
+
+https://kr.api.pvp.net/observer-mode/rest/consumer/getSpectatorGameInfo/KR/1253868?api_key= input your api_key
+
+{'gameId': 2459385708, 
+'mapId': 11, 
+'bannedChampions': [
+{'teamId': 100, 'championId': 90, 'pickTurn': 1}, 
+{'teamId': 200, 'championId': 238, 'pickTurn': 2}, 
+{'teamId': 100, 'championId': 105, 'pickTurn': 3}, 
+{'teamId': 200, 'championId': 50, 'pickTurn': 4}, 
+{'teamId': 100, 'championId': 28, 'pickTurn': 5}, 
+{'teamId': 200, 'championId': 104, 'pickTurn': 6}], 
+'gameMode': 'CLASSIC', 
+'gameQueueConfigId': 410, 
+'platformId': 'KR', 
+'gameStartTime': 1465203044399, 
+'observers': {'encryptionKey': 'aCD5w0R5vlL9FxtriDgOwDTdidKoid7f'}, 
+'gameLength': 1090, 
+
+'participants': [
+{'summonerName': '정 아', 'masteries': [{'masteryId': 6211, 'rank': 5}, {'masteryId': 6223, 'rank': 1}, {'masteryId': 6231, 'rank': 5}, {'masteryId': 6242, 'rank': 1}, {'masteryId': 6312, 'rank': 5}, {'masteryId': 6323, 'rank': 1}, {'masteryId': 6331, 'rank': 5}, {'masteryId': 6343, 'rank': 1}, {'masteryId': 6351, 'rank': 5}, {'masteryId': 6362, 'rank': 1}], 'profileIconId': 785, 'championId': 58, 'summonerId': 21050354, 'spell1Id': 14, 'spell2Id': 4, 'teamId': 100, 'runes': [{'count': 9, 'runeId': 5245}, {'count': 9, 'runeId': 5285}, {'count': 9, 'runeId': 5317}, {'count': 3, 'runeId': 5335}], 'bot': False}, 
+
+{'summonerName': '무아갓', 'masteries': [{'masteryId': 6111, 'rank': 5}, {'masteryId': 6123, 'rank': 1}, {'masteryId': 6131, 'rank': 5}, {'masteryId': 6142, 'rank': 1}, {'masteryId': 6151, 'rank': 5}, {'masteryId': 6162, 'rank': 1}, {'masteryId': 6211, 'rank': 5}, {'masteryId': 6223, 'rank': 1}, {'masteryId': 6232, 'rank': 5}, {'masteryId': 6241, 'rank': 1}], 'profileIconId': 7, 'championId': 202, 'summonerId': 10891679, 'spell1Id': 7, 'spell2Id': 4, 'teamId': 100, 'runes': [{'count': 9, 'runeId': 5245}, {'count': 4, 'runeId': 5277}, {'count': 5, 'runeId': 5289}, {'count': 9, 'runeId': 5317}, {'count': 1, 'runeId': 5335}, {'count': 2, 'runeId': 5337}], 'bot': False}, 
+
+{'summonerName': '고담시웅이', 'masteries': [{'masteryId': 6114, 'rank': 5}, {'masteryId': 6122, 'rank': 1}, {'masteryId': 6134, 'rank': 5}, {'masteryId': 6142, 'rank': 1}, {'masteryId': 6312, 'rank': 5}, {'masteryId': 6322, 'rank': 1}, {'masteryId': 6331, 'rank': 5}, {'masteryId': 6343, 'rank': 1}, {'masteryId': 6352, 'rank': 5}, {'masteryId': 6362, 'rank': 1}], 'profileIconId': 1142, 'championId': 7, 'summonerId': 15530233, 'spell1Id': 12, 'spell2Id': 4, 'teamId': 100, 'runes': [{'count': 9, 'runeId': 5273}, {'count': 9, 'runeId': 5290}, {'count': 9, 'runeId': 5317}, {'count': 3, 'runeId': 5357}], 'bot': False}, 
+
+{'summonerName': '달성건축설비', 'masteries': [{'masteryId': 6211, 'rank': 5}, {'masteryId': 6223, 'rank': 1}, {'masteryId': 6232, 'rank': 5}, {'masteryId': 6241, 'rank': 1}, {'masteryId': 6252, 'rank': 5}, {'masteryId': 6263, 'rank': 1}, {'masteryId': 6311, 'rank': 5}, {'masteryId': 6322, 'rank': 1}, {'masteryId': 6332, 'rank': 5}, {'masteryId': 6342, 'rank': 1}], 'profileIconId': 871, 'championId': 412, 'summonerId': 35080806, 'spell1Id': 4, 'spell2Id': 3, 'teamId': 100, 'runes': [{'count': 9, 'runeId': 5245}, {'count': 3, 'runeId': 5290}, {'count': 6, 'runeId': 5296}, {'count': 9, 'runeId': 5317}, {'count': 2, 'runeId': 5335}, {'count': 1, 'runeId': 5337}], 'bot': False}, 
+
+{'summonerName': 'Door Slayer', 'masteries': [{'masteryId': 6111, 'rank': 5}, {'masteryId': 6122, 'rank': 1}, {'masteryId': 6131, 'rank': 5}, {'masteryId': 6142, 'rank': 1}, {'masteryId': 6151, 'rank': 5}, {'masteryId': 6162, 'rank': 1}, {'masteryId': 6311, 'rank': 5}, {'masteryId': 6323, 'rank': 1}, {'masteryId': 6331, 'rank': 5}, {'masteryId': 6343, 'rank': 1}], 'profileIconId': 988, 'championId': 11, 'summonerId': 16260197, 'spell1Id': 11, 'spell2Id': 4, 'teamId': 100, 'runes': [{'count': 8, 'runeId': 5245}, {'count': 1, 'runeId': 5251}, {'count': 9, 'runeId': 5289}, {'count': 9, 'runeId': 5317}, {'count': 3, 'runeId': 5337}], 'bot': False}, 
+
+{'summonerName': '짱귀욤텅디니꿀꿀', 'masteries': [{'masteryId': 6211, 'rank': 5}, {'masteryId': 6223, 'rank': 1}, {'masteryId': 6232, 'rank': 5}, {'masteryId': 6241, 'rank': 1}, {'masteryId': 6311, 'rank': 5}, {'masteryId': 6322, 'rank': 1}, {'masteryId': 6332, 'rank': 5}, {'masteryId': 6342, 'rank': 1}, {'masteryId': 6352, 'rank': 5}, {'masteryId': 6363, 'rank': 1}], 'profileIconId': 1142, 'championId': 432, 'summonerId': 5188892, 'spell1Id': 4, 'spell2Id': 3, 'teamId': 200, 'runes': [{'count': 9, 'runeId': 5245}, {'count': 4, 'runeId': 5289}, {'count': 2, 'runeId': 5290}, {'count': 3, 'runeId': 5296}, {'count': 9, 'runeId': 5317}, {'count': 2, 'runeId': 5337}, {'count': 1, 'runeId': 5365}], 'bot': False}, 
+
+{'summonerName': '후애앵', 'masteries': [{'masteryId': 6114, 'rank': 5}, {'masteryId': 6122, 'rank': 1}, {'masteryId': 6134, 'rank': 5}, {'masteryId': 6142, 'rank': 1}, {'masteryId': 6312, 'rank': 5}, {'masteryId': 6322, 'rank': 1}, {'masteryId': 6331, 'rank': 5}, {'masteryId': 6343, 'rank': 1}, {'masteryId': 6351, 'rank': 5}, {'masteryId': 6362, 'rank': 1}], 'profileIconId': 1142, 'championId': 81, 'summonerId': 1638480, 'spell1Id': 7, 'spell2Id': 4, 'teamId': 200, 'runes': [{'count': 9, 'runeId': 5245}, {'count': 9, 'runeId': 5289}, {'count': 9, 'runeId': 5317}, {'count': 3, 'runeId': 5335}], 'bot': False}, 
+
+{'summonerName': '불리츠그랩크', 'masteries': [{'masteryId': 6111, 'rank': 5}, {'masteryId': 6121, 'rank': 1}, {'masteryId': 6131, 'rank': 5}, {'masteryId': 6142, 'rank': 1}, {'masteryId': 6211, 'rank': 5}, {'masteryId': 6221, 'rank': 1}, {'masteryId': 6232, 'rank': 5}, {'masteryId': 6241, 'rank': 1}, {'masteryId': 6251, 'rank': 5}, {'masteryId': 6262, 'rank': 1}], 'profileIconId': 6, 'championId': 64, 'summonerId': 11477020, 'spell1Id': 11, 'spell2Id': 4, 'teamId': 200, 'runes': [{'count': 9, 'runeId': 5245}, {'count': 9, 'runeId': 5275}, {'count': 9, 'runeId': 5317}, {'count': 3, 'runeId': 5335}], 'bot': False}, 
+
+{'summonerName': '스톰어벤저', 'masteries': [{'masteryId': 6114, 'rank': 5}, {'masteryId': 6121, 'rank': 1}, {'masteryId': 6131, 'rank': 5}, {'masteryId': 6142, 'rank': 1}, {'masteryId': 6312, 'rank': 5}, {'masteryId': 6323, 'rank': 1}, {'masteryId': 6331, 'rank': 5}, {'masteryId': 6342, 'rank': 1}, {'masteryId': 6352, 'rank': 5}, {'masteryId': 6362, 'rank': 1}], 'profileIconId': 983, 'championId': 75, 'summonerId': 1253868, 'spell1Id': 12, 'spell2Id': 4, 'teamId': 200, 'runes': [{'count': 9, 'runeId': 5303}, {'count': 9, 'runeId': 5316}, {'count': 9, 'runeId': 5402}, {'count': 3, 'runeId': 5418}], 'bot': False}, 
+
+{'summonerName': '정빠빠이', 'masteries': [{'masteryId': 6111, 'rank': 5}, {'masteryId': 6122, 'rank': 1}, {'masteryId': 6131, 'rank': 5}, {'masteryId': 6142, 'rank': 1}, {'masteryId': 6151, 'rank': 5}, {'masteryId': 6164, 'rank': 1}, {'masteryId': 6312, 'rank': 5}, {'masteryId': 6322, 'rank': 1}, {'masteryId': 6331, 'rank': 5}, {'masteryId': 6343, 'rank': 1}], 'profileIconId': 11, 'championId': 126, 'summonerId': 6902670, 'spell1Id': 14, 'spell2Id': 4, 'teamId': 200, 'runes': [{'count': 9, 'runeId': 5245}, {'count': 5, 'runeId': 5275}, {'count': 4, 'runeId': 5277}, {'count': 5, 'runeId': 5305}, {'count': 2, 'runeId': 5317}, {'count': 2, 'runeId': 5319}, {'count': 1, 'runeId': 5335}, {'count': 2, 'runeId': 5337}], 'bot': False}], 
+
+'gameType': 'MATCHED_GAME'}
+[Finished in 8.0s]
