@@ -1,5 +1,6 @@
 https://github.com/LoverKei/lol_search.git
 
+1. 
 echo "# lol_search" >> README.md
 git init
 git add README.md
@@ -7,6 +8,6 @@ git commit -m "first commit"
 git remote add origin https://github.com/LoverKei/lol_search.git
 git push -u origin master
 
-
+2.
 git remote add origin https://github.com/LoverKei/lol_search.git
 git push -u origin master
