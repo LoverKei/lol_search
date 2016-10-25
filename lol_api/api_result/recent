@@ -1,0 +1,1081 @@
+{
+		"games": [
+		{
+				"fellowPlayers": [
+				{
+						"championId": 131,
+								"teamId": 100,
+								"summonerId": 9324094
+				},
+				{
+						"championId": 101,
+						"teamId": 200,
+						"summonerId": 3471060
+				},
+				{
+						"championId": 236,
+						"teamId": 200,
+						"summonerId": 30652925
+				},
+				{
+						"championId": 13,
+						"teamId": 200,
+						"summonerId": 39250922
+				},
+				{
+						"championId": 10,
+						"teamId": 200,
+						"summonerId": 2936387
+				},
+				{
+						"championId": 28,
+						"teamId": 100,
+						"summonerId": 8686147
+				},
+				{
+						"championId": 117,
+						"teamId": 100,
+						"summonerId": 37860970
+				},
+				{
+						"championId": 85,
+						"teamId": 100,
+						"summonerId": 1397712
+				},
+				{
+						"championId": 202,
+						"teamId": 100,
+						"summonerId": 3406977
+				}
+				],
+						"gameType": "MATCHED_GAME",
+						"stats": {
+								"totalDamageDealtToChampions": 13280,
+								"item2": 3190,
+								"goldEarned": 11528,
+								"item1": 2049,
+								"wardPlaced": 26,
+								"totalDamageTaken": 23424,
+								"item0": 3401,
+								"trueDamageDealtPlayer": 11796,
+								"physicalDamageDealtPlayer": 15971,
+								"visionWardsBought": 2,
+								"killingSprees": 1,
+								"playerRole": 2,
+								"totalUnitsHealed": 4,
+								"playerPosition": 4,
+								"level": 16,
+								"totalDamageDealtToBuildings": 1954,
+								"magicDamageDealtToChampions": 8914,
+								"turretsKilled": 1,
+								"magicDamageDealtPlayer": 19775,
+								"assists": 15,
+								"magicDamageTaken": 9989,
+								"numDeaths": 1,
+								"totalTimeCrowdControlDealt": 198,
+								"largestMultiKill": 1,
+								"physicalDamageTaken": 13254,
+								"team": 200,
+								"win": true,
+								"totalDamageDealt": 47543,
+								"largestKillingSpree": 3,
+								"totalHeal": 7019,
+								"item4": 3025,
+								"item3": 3191,
+								"item6": 3364,
+								"item5": 3117,
+								"minionsKilled": 65,
+								"timePlayed": 2168,
+								"wardKilled": 4,
+								"physicalDamageDealtToChampions": 4365,
+								"championsKilled": 4,
+								"trueDamageTaken": 180,
+								"goldSpent": 10600
+						},
+						"gameId": 2588804037,
+						"ipEarned": 251,
+						"spell1": 3,
+						"teamId": 200,
+						"spell2": 4,
+						"gameMode": "CLASSIC",
+						"mapId": 11,
+						"level": 30,
+						"invalid": false,
+						"subType": "RANKED_SOLO_5x5",
+						"createDate": 1475600846964,
+						"championId": 53
+		},
+		{
+				"fellowPlayers": [
+				{
+						"championId": 48,
+						"teamId": 200,
+						"summonerId": 1519831
+				},
+				{
+						"championId": 62,
+						"teamId": 200,
+						"summonerId": 4505773
+				},
+				{
+						"championId": 117,
+						"teamId": 100,
+						"summonerId": 10716674
+				},
+				{
+						"championId": 112,
+						"teamId": 100,
+						"summonerId": 25730873
+				},
+				{
+						"championId": 81,
+						"teamId": 100,
+						"summonerId": 17310525
+				},
+				{
+						"championId": 222,
+						"teamId": 200,
+						"summonerId": 29052046
+				},
+				{
+						"championId": 54,
+						"teamId": 200,
+						"summonerId": 9683659
+				},
+				{
+						"championId": 17,
+						"teamId": 100,
+						"summonerId": 4854650
+				},
+				{
+						"championId": 11,
+						"teamId": 100,
+						"summonerId": 8624858
+				}
+				],
+						"gameType": "MATCHED_GAME",
+						"stats": {
+								"totalDamageDealtToChampions": 16917,
+								"goldEarned": 14176,
+								"item2": 3190,
+								"item1": 2045,
+								"wardPlaced": 44,
+								"totalDamageTaken": 41521,
+								"item0": 3401,
+								"trueDamageDealtPlayer": 7090,
+								"physicalDamageDealtPlayer": 19078,
+								"visionWardsBought": 1,
+								"trueDamageDealtToChampions": 150,
+								"playerRole": 2,
+								"totalUnitsHealed": 5,
+								"playerPosition": 4,
+								"level": 17,
+								"totalDamageDealtToBuildings": 1779,
+								"magicDamageDealtToChampions": 11377,
+								"magicDamageDealtPlayer": 26259,
+								"neutralMinionsKilledEnemyJungle": 1,
+								"assists": 16,
+								"magicDamageTaken": 14934,
+								"numDeaths": 10,
+								"totalTimeCrowdControlDealt": 374,
+								"largestMultiKill": 1,
+								"physicalDamageTaken": 24747,
+								"win": true,
+								"team": 200,
+								"totalDamageDealt": 52429,
+								"totalHeal": 5688,
+								"item4": 3025,
+								"item3": 3117,
+								"item6": 3364,
+								"item5": 3075,
+								"minionsKilled": 62,
+								"timePlayed": 2955,
+								"wardKilled": 15,
+								"physicalDamageDealtToChampions": 5390,
+								"championsKilled": 2,
+								"trueDamageTaken": 1839,
+								"neutralMinionsKilled": 1,
+								"goldSpent": 12475
+						},
+						"gameId": 2587728240,
+						"ipEarned": 131,
+						"spell1": 3,
+						"teamId": 200,
+						"spell2": 4,
+						"gameMode": "CLASSIC",
+						"mapId": 11,
+						"level": 30,
+						"invalid": false,
+						"subType": "RANKED_SOLO_5x5",
+						"createDate": 1475504741432,
+						"championId": 53
+		},
+		{
+				"fellowPlayers": [
+				{
+						"championId": 236,
+						"teamId": 100,
+						"summonerId": 5578861
+				},
+				{
+						"championId": 48,
+						"teamId": 200,
+						"summonerId": 1519831
+				},
+				{
+						"championId": 53,
+						"teamId": 100,
+						"summonerId": 5689515
+				},
+				{
+						"championId": 62,
+						"teamId": 200,
+						"summonerId": 4505773
+				},
+				{
+						"championId": 11,
+						"teamId": 100,
+						"summonerId": 8253856
+				},
+				{
+						"championId": 43,
+						"teamId": 100,
+						"summonerId": 17612495
+				},
+				{
+						"championId": 1,
+						"teamId": 200,
+						"summonerId": 29052046
+				},
+				{
+						"championId": 54,
+						"teamId": 200,
+						"summonerId": 9683659
+				},
+				{
+						"championId": 223,
+						"teamId": 100,
+						"summonerId": 3185725
+				}
+				],
+						"gameType": "MATCHED_GAME",
+						"stats": {
+								"totalDamageDealtToChampions": 16953,
+								"item2": 3046,
+								"goldEarned": 12307,
+								"item1": 1055,
+								"wardPlaced": 12,
+								"item0": 3072,
+								"totalDamageTaken": 11467,
+								"trueDamageDealtPlayer": 467,
+								"physicalDamageDealtPlayer": 106214,
+								"trueDamageDealtToChampions": 285,
+								"killingSprees": 1,
+								"playerRole": 3,
+								"totalUnitsHealed": 3,
+								"playerPosition": 4,
+								"largestCriticalStrike": 457,
+								"level": 14,
+								"doubleKills": 1,
+								"neutralMinionsKilledYourJungle": 2,
+								"totalDamageDealtToBuildings": 9966,
+								"magicDamageDealtToChampions": 3353,
+								"turretsKilled": 2,
+								"magicDamageDealtPlayer": 11033,
+								"neutralMinionsKilledEnemyJungle": 7,
+								"assists": 11,
+								"magicDamageTaken": 2718,
+								"numDeaths": 5,
+								"totalTimeCrowdControlDealt": 204,
+								"largestMultiKill": 2,
+								"physicalDamageTaken": 8301,
+								"team": 200,
+								"win": true,
+								"totalDamageDealt": 117716,
+								"largestKillingSpree": 2,
+								"totalHeal": 2197,
+								"item4": 3508,
+								"item3": 3006,
+								"item6": 3363,
+								"minionsKilled": 147,
+								"timePlayed": 2019,
+								"wardKilled": 7,
+								"physicalDamageDealtToChampions": 13313,
+								"championsKilled": 3,
+								"trueDamageTaken": 447,
+								"goldSpent": 11600,
+								"neutralMinionsKilled": 9
+						},
+						"gameId": 2587763666,
+						"ipEarned": 94,
+						"spell1": 7,
+						"teamId": 200,
+						"spell2": 4,
+						"gameMode": "CLASSIC",
+						"mapId": 11,
+						"level": 30,
+						"invalid": false,
+						"subType": "RANKED_SOLO_5x5",
+						"createDate": 1475501275823,
+						"championId": 110
+		},
+		{
+				"fellowPlayers": [
+				{
+						"championId": 254,
+						"teamId": 200,
+						"summonerId": 1519831
+				},
+				{
+						"championId": 10,
+						"teamId": 100,
+						"summonerId": 43370560
+				},
+				{
+						"championId": 245,
+						"teamId": 100,
+						"summonerId": 1153857
+				},
+				{
+						"championId": 12,
+						"teamId": 200,
+						"summonerId": 1721974
+				},
+				{
+						"championId": 236,
+						"teamId": 200,
+						"summonerId": 29671801
+				},
+				{
+						"championId": 43,
+						"teamId": 100,
+						"summonerId": 7334339
+				},
+				{
+						"championId": 24,
+						"teamId": 200,
+						"summonerId": 9683659
+				},
+				{
+						"championId": 81,
+						"teamId": 100,
+						"summonerId": 7843298
+				},
+				{
+						"championId": 51,
+						"teamId": 100,
+						"summonerId": 5823334
+				}
+				],
+						"gameType": "MATCHED_GAME",
+						"stats": {
+								"totalDamageDealtToChampions": 25644,
+								"item2": 2031,
+								"barracksKilled": 1,
+								"goldEarned": 13168,
+								"item1": 3100,
+								"wardPlaced": 13,
+								"item0": 3157,
+								"totalDamageTaken": 18629,
+								"trueDamageDealtPlayer": 766,
+								"physicalDamageDealtPlayer": 15927,
+								"visionWardsBought": 2,
+								"trueDamageDealtToChampions": 766,
+								"killingSprees": 3,
+								"playerRole": 4,
+								"totalUnitsHealed": 1,
+								"bountyLevel": 2,
+								"playerPosition": 2,
+								"level": 15,
+								"neutralMinionsKilledYourJungle": 15,
+								"totalDamageDealtToBuildings": 6477,
+								"magicDamageDealtToChampions": 23198,
+								"turretsKilled": 3,
+								"magicDamageDealtPlayer": 124843,
+								"neutralMinionsKilledEnemyJungle": 2,
+								"assists": 10,
+								"magicDamageTaken": 7751,
+								"numDeaths": 6,
+								"totalTimeCrowdControlDealt": 170,
+								"largestMultiKill": 1,
+								"physicalDamageTaken": 9979,
+								"team": 200,
+								"win": true,
+								"totalDamageDealt": 141537,
+								"largestKillingSpree": 4,
+								"totalHeal": 1251,
+								"item4": 3158,
+								"item3": 3089,
+								"item6": 3363,
+								"item5": 1026,
+								"minionsKilled": 128,
+								"timePlayed": 1968,
+								"wardKilled": 4,
+								"physicalDamageDealtToChampions": 1679,
+								"championsKilled": 10,
+								"trueDamageTaken": 898,
+								"goldSpent": 12450,
+								"neutralMinionsKilled": 17
+						},
+						"gameId": 2587689814,
+						"ipEarned": 92,
+						"spell1": 14,
+						"teamId": 200,
+						"spell2": 4,
+						"gameMode": "CLASSIC",
+						"mapId": 11,
+						"level": 30,
+						"invalid": false,
+						"subType": "NORMAL",
+						"createDate": 1475498552366,
+						"championId": 4
+		},
+		{
+				"fellowPlayers": [
+				{
+						"championId": 54,
+						"teamId": 100,
+						"summonerId": 26111247
+				},
+				{
+						"championId": 122,
+						"teamId": 100,
+						"summonerId": 1519831
+				},
+				{
+						"championId": 2,
+						"teamId": 200,
+						"summonerId": 30221230
+				},
+				{
+						"championId": 99,
+						"teamId": 100,
+						"summonerId": 1721974
+				},
+				{
+						"championId": 122,
+						"teamId": 200,
+						"summonerId": 42831281
+				},
+				{
+						"championId": 222,
+						"teamId": 100,
+						"summonerId": 20991468
+				},
+				{
+						"championId": 29,
+						"teamId": 200,
+						"summonerId": 50410386
+				},
+				{
+						"championId": 103,
+						"teamId": 200,
+						"summonerId": 45010229
+				},
+				{
+						"championId": 37,
+						"teamId": 200,
+						"summonerId": 42113170
+				}
+				],
+						"gameType": "MATCHED_GAME",
+						"stats": {
+								"totalDamageDealtToChampions": 17986,
+								"item2": 3117,
+								"barracksKilled": 1,
+								"goldEarned": 13755,
+								"item1": 2049,
+								"wardPlaced": 20,
+								"item0": 3742,
+								"totalDamageTaken": 25592,
+								"trueDamageDealtPlayer": 11828,
+								"physicalDamageDealtPlayer": 105016,
+								"trueDamageDealtToChampions": 448,
+								"killingSprees": 2,
+								"totalUnitsHealed": 1,
+								"bountyLevel": 2,
+								"playerPosition": 3,
+								"level": 16,
+								"doubleKills": 1,
+								"neutralMinionsKilledYourJungle": 62,
+								"totalDamageDealtToBuildings": 10261,
+								"magicDamageDealtToChampions": 3853,
+								"magicDamageDealtPlayer": 27939,
+								"neutralMinionsKilledEnemyJungle": 20,
+								"assists": 7,
+								"magicDamageTaken": 2940,
+								"numDeaths": 4,
+								"totalTimeCrowdControlDealt": 610,
+								"largestMultiKill": 2,
+								"physicalDamageTaken": 20006,
+								"team": 100,
+								"win": true,
+								"totalDamageDealt": 144783,
+								"largestKillingSpree": 6,
+								"totalHeal": 7349,
+								"item4": 3071,
+								"item3": 1412,
+								"item6": 3364,
+								"item5": 3155,
+								"minionsKilled": 26,
+								"timePlayed": 2080,
+								"wardKilled": 3,
+								"physicalDamageDealtToChampions": 13685,
+								"championsKilled": 10,
+								"trueDamageTaken": 2645,
+								"goldSpent": 11775,
+								"neutralMinionsKilled": 82
+						},
+						"gameId": 2587647502,
+						"ipEarned": 96,
+						"spell1": 11,
+						"teamId": 100,
+						"spell2": 4,
+						"gameMode": "CLASSIC",
+						"mapId": 11,
+						"level": 30,
+						"invalid": false,
+						"subType": "NORMAL",
+						"createDate": 1475496221878,
+						"championId": 64
+		},
+		{
+				"fellowPlayers": [
+				{
+						"championId": 67,
+						"teamId": 200,
+						"summonerId": 5060988
+				},
+				{
+						"championId": 32,
+						"teamId": 200,
+						"summonerId": 3124770
+				},
+				{
+						"championId": 112,
+						"teamId": 200,
+						"summonerId": 2373961
+				},
+				{
+						"championId": 92,
+						"teamId": 100,
+						"summonerId": 11419715
+				},
+				{
+						"championId": 17,
+						"teamId": 100,
+						"summonerId": 30821847
+				},
+				{
+						"championId": 126,
+						"teamId": 100,
+						"summonerId": 20622999
+				},
+				{
+						"championId": 117,
+						"teamId": 200,
+						"summonerId": 22810553
+				},
+				{
+						"championId": 96,
+						"teamId": 100,
+						"summonerId": 38350194
+				},
+				{
+						"championId": 24,
+						"teamId": 200,
+						"summonerId": 9615393
+				}
+				],
+						"gameType": "MATCHED_GAME",
+						"stats": {
+								"totalDamageDealtToChampions": 9063,
+								"goldEarned": 8004,
+								"item2": 2031,
+								"item1": 2049,
+								"wardPlaced": 16,
+								"totalDamageTaken": 8037,
+								"item0": 3401,
+								"trueDamageDealtPlayer": 6092,
+								"physicalDamageDealtPlayer": 10715,
+								"visionWardsBought": 1,
+								"killingSprees": 1,
+								"playerRole": 2,
+								"totalUnitsHealed": 3,
+								"bountyLevel": 4,
+								"playerPosition": 4,
+								"level": 11,
+								"neutralMinionsKilledYourJungle": 2,
+								"totalDamageDealtToBuildings": 778,
+								"magicDamageDealtToChampions": 5817,
+								"magicDamageDealtPlayer": 9221,
+								"assists": 11,
+								"magicDamageTaken": 3812,
+								"totalTimeCrowdControlDealt": 106,
+								"largestMultiKill": 1,
+								"physicalDamageTaken": 4021,
+								"win": true,
+								"team": 100,
+								"totalDamageDealt": 26029,
+								"largestKillingSpree": 4,
+								"totalHeal": 1987,
+								"item4": 3117,
+								"item3": 3024,
+								"item6": 3364,
+								"item5": 3057,
+								"minionsKilled": 37,
+								"timePlayed": 1415,
+								"wardKilled": 1,
+								"physicalDamageDealtToChampions": 3246,
+								"championsKilled": 4,
+								"trueDamageTaken": 202,
+								"neutralMinionsKilled": 2,
+								"goldSpent": 6175
+						},
+						"gameId": 2587620714,
+						"ipEarned": 226,
+						"spell1": 3,
+						"teamId": 100,
+						"spell2": 4,
+						"gameMode": "CLASSIC",
+						"mapId": 11,
+						"level": 30,
+						"invalid": false,
+						"subType": "RANKED_SOLO_5x5",
+						"createDate": 1475492517701,
+						"championId": 53
+		},
+		{
+				"fellowPlayers": [
+				{
+						"championId": 412,
+						"teamId": 100,
+						"summonerId": 2425786
+				},
+				{
+						"championId": 63,
+						"teamId": 200,
+						"summonerId": 3759867
+				},
+				{
+						"championId": 421,
+						"teamId": 200,
+						"summonerId": 1206955
+				},
+				{
+						"championId": 254,
+						"teamId": 100,
+						"summonerId": 2927647
+				},
+				{
+						"championId": 86,
+						"teamId": 100,
+						"summonerId": 3185427
+				},
+				{
+						"championId": 51,
+						"teamId": 100,
+						"summonerId": 2061929
+				},
+				{
+						"championId": 81,
+						"teamId": 100,
+						"summonerId": 12083400
+				},
+				{
+						"championId": 18,
+						"teamId": 200,
+						"summonerId": 28560442
+				},
+				{
+						"championId": 25,
+						"teamId": 200,
+						"summonerId": 1401389
+				}
+				],
+						"gameType": "CUSTOM_GAME",
+						"stats": {
+								"totalDamageDealtToChampions": 17204,
+								"goldEarned": 11253,
+								"item2": 3047,
+								"item1": 3068,
+								"wardPlaced": 16,
+								"totalDamageTaken": 36774,
+								"item0": 3742,
+								"physicalDamageDealtPlayer": 29989,
+								"visionWardsBought": 3,
+								"playerRole": 4,
+								"totalUnitsHealed": 1,
+								"playerPosition": 1,
+								"level": 15,
+								"neutralMinionsKilledYourJungle": 3,
+								"totalDamageDealtToBuildings": 1986,
+								"magicDamageDealtToChampions": 7819,
+								"turretsKilled": 2,
+								"magicDamageDealtPlayer": 58456,
+								"assists": 15,
+								"magicDamageTaken": 6699,
+								"numDeaths": 11,
+								"totalTimeCrowdControlDealt": 306,
+								"largestMultiKill": 1,
+								"physicalDamageTaken": 27216,
+								"win": false,
+								"team": 200,
+								"totalDamageDealt": 88446,
+								"totalHeal": 2733,
+								"item4": 1029,
+								"item3": 3053,
+								"item6": 3340,
+								"item5": 1054,
+								"minionsKilled": 119,
+								"timePlayed": 1926,
+								"wardKilled": 1,
+								"physicalDamageDealtToChampions": 9385,
+								"championsKilled": 5,
+								"trueDamageTaken": 2858,
+								"neutralMinionsKilled": 3,
+								"goldSpent": 11055
+						},
+						"gameId": 2583416302,
+						"ipEarned": 34,
+						"spell1": 12,
+						"teamId": 200,
+						"spell2": 4,
+						"gameMode": "CLASSIC",
+						"mapId": 11,
+						"level": 30,
+						"invalid": false,
+						"subType": "NONE",
+						"createDate": 1475257026404,
+						"championId": 98
+		},
+		{
+				"fellowPlayers": [
+				{
+						"championId": 157,
+						"teamId": 100,
+						"summonerId": 2425786
+				},
+				{
+						"championId": 150,
+						"teamId": 200,
+						"summonerId": 1206955
+				},
+				{
+						"championId": 37,
+						"teamId": 100,
+						"summonerId": 2927647
+				},
+				{
+						"championId": 81,
+						"teamId": 100,
+						"summonerId": 3185427
+				},
+				{
+						"championId": 104,
+						"teamId": 100,
+						"summonerId": 2520183
+				},
+				{
+						"championId": 4,
+						"teamId": 200,
+						"summonerId": 2061929
+				},
+				{
+						"championId": 55,
+						"teamId": 100,
+						"summonerId": 12083400
+				},
+				{
+						"championId": 96,
+						"teamId": 200,
+						"summonerId": 1401389
+				},
+				{
+						"championId": 18,
+						"teamId": 200,
+						"summonerId": 28560442
+				}
+				],
+						"gameType": "CUSTOM_GAME",
+						"stats": {
+								"totalDamageDealtToChampions": 9645,
+								"item2": 2031,
+								"goldEarned": 9751,
+								"item1": 2049,
+								"wardPlaced": 25,
+								"totalDamageTaken": 27264,
+								"item0": 3401,
+								"trueDamageDealtPlayer": 5027,
+								"physicalDamageDealtPlayer": 17438,
+								"visionWardsBought": 1,
+								"trueDamageDealtToChampions": 192,
+								"killingSprees": 2,
+								"playerRole": 2,
+								"totalUnitsHealed": 4,
+								"playerPosition": 4,
+								"level": 14,
+								"totalDamageDealtToBuildings": 114,
+								"magicDamageDealtToChampions": 2336,
+								"magicDamageDealtPlayer": 9381,
+								"neutralMinionsKilledEnemyJungle": 1,
+								"assists": 14,
+								"magicDamageTaken": 8252,
+								"numDeaths": 6,
+								"totalTimeCrowdControlDealt": 263,
+								"largestMultiKill": 1,
+								"physicalDamageTaken": 18261,
+								"win": false,
+								"team": 200,
+								"totalDamageDealt": 31847,
+								"largestKillingSpree": 2,
+								"totalHeal": 3642,
+								"item4": 3065,
+								"item3": 3111,
+								"item6": 3364,
+								"item5": 3751,
+								"minionsKilled": 53,
+								"timePlayed": 1846,
+								"wardKilled": 6,
+								"physicalDamageDealtToChampions": 7116,
+								"championsKilled": 6,
+								"trueDamageTaken": 750,
+								"goldSpent": 8225,
+								"neutralMinionsKilled": 1
+						},
+						"gameId": 2583246359,
+						"ipEarned": 31,
+						"spell1": 3,
+						"teamId": 200,
+						"spell2": 4,
+						"gameMode": "CLASSIC",
+						"mapId": 11,
+						"level": 30,
+						"invalid": false,
+						"subType": "NONE",
+						"createDate": 1475254384621,
+						"championId": 98
+		},
+		{
+				"fellowPlayers": [
+				{
+						"championId": 21,
+						"teamId": 200,
+						"summonerId": 3759867
+				},
+				{
+						"championId": 120,
+						"teamId": 100,
+						"summonerId": 1816084
+				},
+				{
+						"championId": 90,
+						"teamId": 100,
+						"summonerId": 3487520
+				},
+				{
+						"championId": 63,
+						"teamId": 100,
+						"summonerId": 1230134
+				},
+				{
+						"championId": 24,
+						"teamId": 200,
+						"summonerId": 9683659
+				},
+				{
+						"championId": 81,
+						"teamId": 100,
+						"summonerId": 10499339
+				},
+				{
+						"championId": 112,
+						"teamId": 200,
+						"summonerId": 1401389
+				},
+				{
+						"championId": 28,
+						"teamId": 100,
+						"summonerId": 3614151
+				},
+				{
+						"championId": 78,
+						"teamId": 200,
+						"summonerId": 7323325
+				}
+				],
+						"gameType": "MATCHED_GAME",
+						"stats": {
+								"totalDamageDealtToChampions": 18672,
+								"item2": 3102,
+								"barracksKilled": 1,
+								"goldEarned": 15310,
+								"item1": 3026,
+								"wardPlaced": 18,
+								"totalDamageTaken": 36737,
+								"item0": 3053,
+								"trueDamageDealtPlayer": 16772,
+								"physicalDamageDealtPlayer": 48761,
+								"visionWardsBought": 2,
+								"trueDamageDealtToChampions": 2161,
+								"killingSprees": 2,
+								"totalUnitsHealed": 1,
+								"bountyLevel": 3,
+								"playerPosition": 3,
+								"level": 17,
+								"neutralMinionsKilledYourJungle": 64,
+								"totalDamageDealtToBuildings": 2281,
+								"magicDamageDealtToChampions": 8444,
+								"magicDamageDealtPlayer": 70223,
+								"neutralMinionsKilledEnemyJungle": 3,
+								"assists": 20,
+								"magicDamageTaken": 11140,
+								"numDeaths": 6,
+								"totalTimeCrowdControlDealt": 570,
+								"largestMultiKill": 1,
+								"physicalDamageTaken": 24660,
+								"team": 200,
+								"win": true,
+								"totalDamageDealt": 135757,
+								"largestKillingSpree": 3,
+								"totalHeal": 8793,
+								"item4": 1413,
+								"item3": 3742,
+								"item6": 3340,
+								"item5": 3111,
+								"minionsKilled": 43,
+								"timePlayed": 2229,
+								"wardKilled": 4,
+								"physicalDamageDealtToChampions": 8066,
+								"championsKilled": 6,
+								"trueDamageTaken": 936,
+								"goldSpent": 14475,
+								"neutralMinionsKilled": 67
+						},
+						"gameId": 2583766845,
+						"ipEarned": 103,
+						"spell1": 11,
+						"teamId": 200,
+						"spell2": 4,
+						"gameMode": "CLASSIC",
+						"mapId": 11,
+						"level": 30,
+						"invalid": false,
+						"subType": "RANKED_SOLO_5x5",
+						"createDate": 1475249219134,
+						"championId": 98
+		},
+		{
+				"fellowPlayers": [
+				{
+						"championId": 81,
+						"teamId": 200,
+						"summonerId": 10044946
+				},
+				{
+						"championId": 86,
+						"teamId": 200,
+						"summonerId": 45950191
+				},
+				{
+						"championId": 21,
+						"teamId": 100,
+						"summonerId": 3759867
+				},
+				{
+						"championId": 32,
+						"teamId": 200,
+						"summonerId": 45431311
+				},
+				{
+						"championId": 43,
+						"teamId": 200,
+						"summonerId": 10605850
+				},
+				{
+						"championId": 24,
+						"teamId": 100,
+						"summonerId": 9683659
+				},
+				{
+						"championId": 64,
+						"teamId": 100,
+						"summonerId": 1401389
+				},
+				{
+						"championId": 84,
+						"teamId": 200,
+						"summonerId": 15700479
+				},
+				{
+						"championId": 25,
+						"teamId": 100,
+						"summonerId": 7323325
+				}
+				],
+						"gameType": "MATCHED_GAME",
+						"stats": {
+								"totalDamageDealtToChampions": 28509,
+								"item2": 3089,
+								"barracksKilled": 1,
+								"goldEarned": 14146,
+								"item1": 3158,
+								"wardPlaced": 13,
+								"item0": 3157,
+								"totalDamageTaken": 16123,
+								"trueDamageDealtPlayer": 918,
+								"physicalDamageDealtPlayer": 13853,
+								"visionWardsBought": 3,
+								"trueDamageDealtToChampions": 918,
+								"killingSprees": 3,
+								"playerRole": 1,
+								"totalUnitsHealed": 1,
+								"bountyLevel": 3,
+								"playerPosition": 2,
+								"level": 16,
+								"doubleKills": 1,
+								"neutralMinionsKilledYourJungle": 12,
+								"totalDamageDealtToBuildings": 7276,
+								"magicDamageDealtToChampions": 25446,
+								"turretsKilled": 1,
+								"magicDamageDealtPlayer": 120022,
+								"neutralMinionsKilledEnemyJungle": 6,
+								"assists": 18,
+								"magicDamageTaken": 9488,
+								"numDeaths": 6,
+								"totalTimeCrowdControlDealt": 128,
+								"largestMultiKill": 2,
+								"physicalDamageTaken": 6091,
+								"team": 100,
+								"win": true,
+								"totalDamageDealt": 134793,
+								"largestKillingSpree": 4,
+								"totalHeal": 1406,
+								"item4": 1056,
+								"item3": 3100,
+								"item6": 3363,
+								"item5": 1052,
+								"minionsKilled": 120,
+								"timePlayed": 1817,
+								"physicalDamageDealtToChampions": 2144,
+								"championsKilled": 12,
+								"trueDamageTaken": 543,
+								"goldSpent": 12110,
+								"neutralMinionsKilled": 18
+						},
+						"gameId": 2583781770,
+						"ipEarned": 87,
+						"spell1": 14,
+						"teamId": 100,
+						"spell2": 4,
+						"gameMode": "CLASSIC",
+						"mapId": 11,
+						"level": 30,
+						"invalid": false,
+						"subType": "RANKED_SOLO_5x5",
+						"createDate": 1475246049162,
+						"championId": 4
+		}
+		],
+				"summonerId": 2116683
+}
