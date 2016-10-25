@@ -8,11 +8,21 @@ import logging
 import sys
 
 # import lol_search API
-sys.path.insert(0, "/home/loverkei/workspace/lol_search/lol_search/lol_test")
+sys.path.insert(0, "/home/loverkei/workspace/lol_search/lol_search/lol_api")
 import findUserInfo
 import league
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+# logger
+logger = logging.getLogger('lol_telbot_logger')
+
+fileHandler = logging.FileHandler('../lol_telbot.log')
+streamHandler = logging.StreamHandler()
+
+logger.addHandler(fileHandler)
+logger.addHandler(streamHandler)
+
+logger.setLevel(logging.INFO)
+
 logging.info("--- Start LoL Search Tel Bot ---")
 
 # import TOKEN
@@ -25,12 +35,12 @@ dispatcher = updater.dispatcher
 
 # Telegram Start command #
 def start(bot, update):
-	logging.info("/start")
+	logger.info("/start")
 	bot.sendMessage(chat_id=update.message.chat_id, text="LoL 검색 봇 시작!!!\n/lol LOL_ID : LoL 검색")
 
 # Lol User find command #
 def lol_findUser(bot, update, args):
-	logging.info("/lol " + args[0])
+	logger.info("/lol " + args[0])
 	user_name = args[0].lower()
 	user_name = user_name.replace(" ", "")
 	response = findUserInfo.findUserInfo(user_name)
@@ -38,7 +48,7 @@ def lol_findUser(bot, update, args):
 	if (response.status_code == 200):
 # default info
 		res_str = response.json()[user_name]
-		logging.info(res_str)
+		logger.info(res_str)
 		u_lv = res_str["summonerLevel"]
 		u_name = res_str["name"]
 		u_id = res_str["id"]
@@ -48,7 +58,7 @@ def lol_findUser(bot, update, args):
 # Rank info
 		response = league.getLeague_entry(u_id)
 		if(response.status_code == 200):
-			logging.info(response.json())
+			logger.info(response.json())
 			response = response.json()[str(u_id)][0]
 			u_tier = response["tier"]
 			u_leagueName = response["name"]
@@ -72,7 +82,7 @@ def lol_findUser(bot, update, args):
 	else :
 		res_str = "Error : status_code - " + response.status_code
 	
-	logging.info(res_str)
+	logger.info(res_str)
 	bot.sendMessage(chat_id=update.message.chat_id, text=res_str)
 
 

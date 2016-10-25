@@ -1,6 +1,6 @@
 # api_key.py
 
-api_key = "insert your api key"
+api_key = "input your api_key"
 
 def getKey():
 	return api_key
