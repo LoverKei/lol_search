@@ -11,6 +11,7 @@ import sys
 sys.path.insert(0, "/home/loverkei/workspace/lol_search/lol_search/lol_api")
 import findUserInfo
 import league
+import summoner
 
 # logger
 logger = logging.getLogger('lol_telbot_logger')
@@ -33,6 +34,8 @@ updater = Updater(token=TOKEN)
 
 dispatcher = updater.dispatcher
 
+
+
 # Telegram Start command #
 def start(bot, update):
 	logger.info("/start")
@@ -40,52 +43,96 @@ def start(bot, update):
 
 # Lol User find command #
 def lol_findUser(bot, update, args):
-	logger.info("/lol " + args[0])
-	user_name = args[0].lower()
+	# remake user name. (delete blank, combine args)
+	user_name = ""
+	for tmp in args:
+		tmp = tmp.lower()
+		user_name += tmp
 	user_name = user_name.replace(" ", "")
+	
+	logger.info("/lol " + user_name)
+
+	# find user_info
+	user = getUserInfoByDB(user_name,summoner.Summoner(user_name))
+	if(user.getUstatus() != 0):
+		print("TO DO")
+	else :
+		# get user infomation by RIOT api
+		user = getUserInfoByRIOT(user_name, user)
+
+	# make response message.
+	if(user.getUstatus() == 200 | user.getUstatus() == 201):
+		res_str = makeResponse(user)
+	else:
+		res_str = "Can not fine User."
+	bot.sendMessage(chat_id=update.message.chat_id, text=res_str)
+
+
+# TO DO 
+def getUserInfoByDB(user_name, user):
+	user.setUstatus(0)  # Can not find User in DB
+	return user
+
+
+
+# make /lol res_str
+def getUserInfoByRIOT(user_name, user):
 	response = findUserInfo.findUserInfo(user_name)
 
 	if (response.status_code == 200):
 # default info
 		res_str = response.json()[user_name]
 		logger.info(res_str)
-		u_lv = res_str["summonerLevel"]
-		u_name = res_str["name"]
-		u_id = res_str["id"]
+		user.setUlv(str(res_str["summonerLevel"]))
+		user.setUname(res_str["name"])
+		user.setUid(str(res_str["id"]))
 
-		res_str = u_name + "(" + str(u_lv) + ") \n"
 
 # Rank info
-		response = league.getLeague_entry(u_id)
+		response = league.getLeague_entry(user.getUid())
 		if(response.status_code == 200):
 			logger.info(response.json())
-			response = response.json()[str(u_id)][0]
-			u_tier = response["tier"]
-			u_leagueName = response["name"]
-			u_division = response["entries"][0]["division"]
-			u_leaguePoints = response["entries"][0]["leaguePoints"]
-			u_wins = response["entries"][0]["wins"]
-			u_lossed = response["entries"][0]["losses"]
-			u_rate = u_wins * 100 / (u_wins+u_lossed)
-
-			res_str += u_tier + " " + str(u_division) + "(" + str(u_leaguePoints) + "LP)  " + str(u_wins) + "win / " + str(u_lossed) + "loss (" + str(u_rate) + "%) - " + u_leagueName
+			response = response.json()[user.getUid()][0]
+			user.setUtier(str(response["tier"]))
+			user.setUleagueName(str(response["name"]))
+			user.setUdivision(str(response["entries"][0]["division"]))
+			user.setUleaguePoints(response["entries"][0]["leaguePoints"])
+			user.setUwins(response["entries"][0]["wins"])
+			user.setUlossed(response["entries"][0]["losses"])
+			user.setUstatus(201)
 		else :
-			res_str += "UnRanked"
+			user.setUtier("UnRanked")
+			user.setUstatus(200)
 
 # last game info
 # TO DO
 
-# make response msg
-
 	elif(response.status_code == 404):
-		res_str = "Can not find User " + user_name
+		user.setUstatus(-1)
+		logger.info("Error : Can not find user - " + user.getUname())
 	else :
-		res_str = "Error : status_code - " + response.status_code
+		user.setUstatus(response.status_code)
+		logger.info("Error : status_code - " + str(response.status_code))
 	
-	logger.info(res_str)
-	bot.sendMessage(chat_id=update.message.chat_id, text=res_str)
+	return user
 
 
+
+# make "/lol" response msg
+def makeResponse(user):
+	rsp_str = user.getUname() + "(" + user.getUlv() + ") \n"
+	if(user.getUstatus() == 201): # Ranked player
+		u_rate = user.getUwins() * 100 / (user.getUwins() + user.getUlossed())
+		rsp_str += user.getUtier() + " " + user.getUdivision() + "(" + str(user.getUleaguePoints()) + "LP)  " + str(user.getUwins()) + "win / " + str(user.getUlossed()) + "loss (" + str(u_rate) + "%) - " + user.getUleagueName()
+	elif(user.getUstatus() == 200):
+		rsp_str += "UnRanked."
+
+	logger.info("Response : " + rsp_str)
+	return rsp_str
+
+
+
+# connection of tel_bot
 start_handler = CommandHandler('start', start)
 lol_findUser_handler = CommandHandler('lol', lol_findUser, pass_args=True)
 dispatcher.add_handler(start_handler)
