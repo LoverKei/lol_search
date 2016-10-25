@@ -1,4 +1,4 @@
-TOKEN = "input your TOKEN"
+TOKEN = "insert your TOKEN"
 
 def getToken():
 	return TOKEN
