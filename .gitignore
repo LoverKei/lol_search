@@ -1,0 +1,14 @@
+# python run temp files
+*.pyc
+
+
+# telegram token
+myToken.py
+
+
+# RIOT api key
+apikey.py
+
+
+# log
+*.log
