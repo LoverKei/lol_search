@@ -55,16 +55,14 @@ def lol_findUser(bot, update, args):
 	# find user_info
 	user = getUserInfoByDB(user_name,summoner.Summoner(user_name))
 	if(user.getUstatus() != 0):
+		# To DO
 		print("TO DO")
 	else :
 		# get user infomation by RIOT api
 		user = getUserInfoByRIOT(user_name, user)
 
 	# make response message.
-	if(user.getUstatus() == 200 | user.getUstatus() == 201):
-		res_str = makeResponse(user)
-	else:
-		res_str = "Can not fine User."
+	res_str = makeResponse(user)
 	bot.sendMessage(chat_id=update.message.chat_id, text=res_str)
 
 
@@ -108,7 +106,7 @@ def getUserInfoByRIOT(user_name, user):
 # TO DO
 
 	elif(response.status_code == 404):
-		user.setUstatus(-1)
+		user.setUstatus(response.status_code)
 		logger.info("Error : Can not find user - " + user.getUname())
 	else :
 		user.setUstatus(response.status_code)
@@ -120,12 +118,15 @@ def getUserInfoByRIOT(user_name, user):
 
 # make "/lol" response msg
 def makeResponse(user):
-	rsp_str = user.getUname() + "(" + user.getUlv() + ") \n"
 	if(user.getUstatus() == 201): # Ranked player
+		rsp_str = user.getUname() + "(" + user.getUlv() + ") \n"
 		u_rate = user.getUwins() * 100 / (user.getUwins() + user.getUlossed())
 		rsp_str += user.getUtier() + " " + user.getUdivision() + "(" + str(user.getUleaguePoints()) + "LP)  " + str(user.getUwins()) + "win / " + str(user.getUlossed()) + "loss (" + str(u_rate) + "%) - " + user.getUleagueName()
-	elif(user.getUstatus() == 200):
+	elif(user.getUstatus() == 200): # UnRanked player
+		rsp_str = user.getUname() + "(" + user.getUlv() + ") \n"
 		rsp_str += "UnRanked."
+	else :
+		rsp_str = "Can not find user " + user_getUname() + ", " + str(user_getUStatus())
 
 	logger.info("Response : " + rsp_str)
 	return rsp_str

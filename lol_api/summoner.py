@@ -10,6 +10,10 @@ class Summoner:
 # u_leaguePoints
 # u_wins
 # u_lossed
+# u_status : 
+#	200 - Ranked / 201 - UnRanked
+#	0   - Can not find user_info in DB
+#   others - RIOT API response.status_code
 
 	def __init__(self, name):
 		self.u_name = name
